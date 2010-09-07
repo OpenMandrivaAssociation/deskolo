@@ -5,6 +5,7 @@ License:	GPL
 Summary:	deskolo project package
 Source:		deskolo-%{version}.tar.bz2
 Group:		Monitoring
+BuildRequires:	python
 %description
 The DESKOLOL software, whose purpose is to visualize and optimize the energy consumption of computers in a corporate network.
 
