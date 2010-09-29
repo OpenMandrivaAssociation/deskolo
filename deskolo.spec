@@ -6,7 +6,7 @@ Summary:	Deskolo energy consumption monitoring utilities
 Url:        http://www.deskolo.com
 Source:		deskolo-%{version}.tar.bz2
 Group:		Monitoring
-BuildRequires: libx11_6-devel
+BuildRequires: libx11-devel
 BuildRequires: libxext-devel
 BuildRequires: python-devel
 Requires: wattsup
