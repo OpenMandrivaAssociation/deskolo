@@ -1,6 +1,6 @@
 Name:		deskolo
 Version:	0.23
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPLv2
 Summary:	Deskolo energy consumption monitoring utilities
 Url:        http://www.deskolo.com
@@ -40,8 +40,8 @@ python setup.py install --root=%{buildroot}
 %files
 %defattr(-,root,root)
 %config(noreplace) %{_sysconfdir}/deskolo.cfg
-%python_sitelib/deskolo/*
-%python_sitelib/deskolo-0.23-py2.6.egg-info
+%{python_sitelib}/%{name}
+%{python_sitelib}/%{name}-%{version}-py%{py_ver}.egg-info
 %{_bindir}/deskolo
 %{_bindir}/xlib-dpms
 
