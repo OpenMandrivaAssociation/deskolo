@@ -45,3 +45,28 @@ python setup.py install --root=%{buildroot}
 %{_bindir}/deskolo
 %{_bindir}/xlib-dpms
 
+
+
+%changelog
+* Sun Nov 07 2010 Jani Välimaa <wally@mandriva.org> 0.23-2mdv2011.0
++ Revision: 594488
+- rebuild for python 2.7
+- fix file list
+
+* Wed Sep 29 2010 Stéphane Laurière <slauriere@mandriva.com> 0.23-1mdv2011.0
++ Revision: 582045
+- v0.23 release
+
+* Wed Sep 29 2010 Stéphane Laurière <slauriere@mandriva.com> 0.22-1mdv2011.0
++ Revision: 582040
+- v0.22 release
+- v0.21 release
+- added buildrequires libx11_6-devel
+- v0.2 release
+
+* Tue Sep 07 2010 Nicolas Vigier <nvigier@mandriva.com> 0.1-1mdv2011.0
++ Revision: 576539
+- lol
+- complete description (from website)
+- import deskolo
+
