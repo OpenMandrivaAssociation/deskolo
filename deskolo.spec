@@ -1,6 +1,6 @@
 Name:		deskolo
 Version:	0.23
-Release:	3
+Release:	4
 License:	GPLv2
 Summary:	Energy consumption monitoring utilities
 Url:        http://www.deskolo.com
@@ -38,7 +38,6 @@ python setup.py install --root=%{buildroot}
 
 
 %files
-%defattr(-,root,root)
 %config(noreplace) %{_sysconfdir}/deskolo.cfg
 %{python_sitelib}/%{name}
 %{python_sitelib}/%{name}-%{version}-py%{py_ver}.egg-info
