@@ -1,3 +1,5 @@
+%define debug_package %{nil}
+
 Name:		deskolo
 Version:	0.23
 Release:	4
