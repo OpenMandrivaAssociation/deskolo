@@ -2,7 +2,7 @@
 
 Name:		deskolo
 Version:	0.23
-Release:	4
+Release:	5
 License:	GPLv2
 Summary:	Energy consumption monitoring utilities
 Url:        http://www.deskolo.com
