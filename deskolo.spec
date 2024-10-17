@@ -5,7 +5,7 @@ Version:	0.23
 Release:	5
 License:	GPLv2
 Summary:	Energy consumption monitoring utilities
-Url:        http://www.deskolo.com
+Url:        https://www.deskolo.com
 Source:		deskolo-%{version}.tar.bz2
 Group:		Monitoring
 BuildRequires: pkgconfig(x11)
